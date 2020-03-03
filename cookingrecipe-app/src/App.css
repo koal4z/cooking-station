@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit|Roboto&display=swap");
+
+/* FONT
+font-family: 'Roboto', sans-serif; EN
+font-family: 'Kanit', sans-serif; TH
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.4px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+li {
+  font-size: 1rem;
+}
+hr {
+  border-width: 4px;
+}
+
+@media only screen and (min-width: 720px) {
+  .container {
+    width: 80%;
+  }
+}
